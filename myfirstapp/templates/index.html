@@ -1,0 +1,28 @@
+{%load static %}
+<!doctype html>
+<html lang="en"></html>
+<head>
+    <meta charset="utf-8"
+          name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/styles.css'%}">
+</head>
+<title></title>
+<body>
+<h1>Welcome To my first Django project</h1>
+<p>This is my first Django project</p>
+<a href="{% url 'my_home' %}">home</a>
+<a href="{% url 'my_about' %}">about</a>
+<a href="{% url 'my_contact' %}">contact</a>
+<div class="gallery">
+  <img src="{%static 'img/1.jpg'%}" alt="django">
+<img src="{%static 'img/1212.jpg'%}" alt="django">
+<img src="{%static 'img/pic.png'%}" alt="django">
+</div>
+
+</img>
+
+</body>
+</html>
+
+
+
